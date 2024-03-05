@@ -8,6 +8,11 @@
 <body>
     <?php
         echo "Hello World!";
+        $number = 34;
+        $number2 = 23;
+        $product = $number * $number2;
+
+        echo "The product of the two numbers " . $number . " and " . $number2 . " is ". $product . ".";
     ?>
 </body>
 </html>
